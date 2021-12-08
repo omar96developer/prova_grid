@@ -9,7 +9,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 1200px;
-    height: 100vh;
+    
     margin: auto;
 }
 main div {
@@ -21,6 +21,42 @@ main div {
 .a, .b, .d, .g, .l{
     grid-column: span 2;
 }
-.e {
+
+.a, .d, .l {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+
+.b{
+    
+}
+.c{
+    
+}
+.d{
+    
+}
+.e{
     grid-row: span 2;
+}
+.f{
+    
+}
+.g{
+    background-image: url(img/ux.png);
+    background-repeat: no-repeat;
+    background-position-x: center ;
+    background-position-y: bottom;
+    background-size: 60%;
+
+}
+.h{
+    
+}
+.i{
+    
+}
+.l{
+    
 }

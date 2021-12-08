@@ -2,22 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
-    border: 2px solid ;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 1200px;
-    
-    margin: auto;
+    grid-template-rows: 350px 350px 350px 250px;
 }
 main div {
-
     padding: 20px;
-    border: 1px solid;
 }
-
+h5, p {
+    color: lightgrey;
+}
+h2 {
+    font-weight: 400;
+}
+i {
+    font-size: 10px;
+    vertical-align: middle;
+}
 .a, .b, .d, .g, .l{
     grid-column: span 2;
 }
@@ -26,37 +31,215 @@ main div {
  display: grid;
  grid-template-columns: 1fr 1fr;
 }
-
+.a {
+    padding-bottom: 0;
+}
+.a1, .b, .c, .e1, .f, .h div, .i, .l2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.a1 h5, .d1 h5, .e2 h1 {
+    margin-bottom: 10px;
+}
+.a1 h2, .b h5, .d1 h2, .d2 p, .e2 p {
+    padding-bottom: 20px;
+}
+.a2 {
+    margin: auto;
+    padding-bottom: 0;
+}
+.a2 img {
+    height: 300px;
+}
 
 .b{
-    
+    text-align: center;
+    background-color: #f7f8f9;
+
+}
+.b h1 {
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 40px;
+}
+.b a {
+    color: #27bcc9;
 }
 .c{
-    
+    background-color:#f05638;
+    color: white;
+    text-align: center;
 }
-.d{
-    
+.c div {
+    padding: 0;
 }
+.c img {
+    height: 130px;
+}
+.c h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.c a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 13px;
+}
+.d1 {
+    text-align: center;
+    position: relative;
+}
+.d_img {
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);  
+}
+.d_img img{
+    height: 130px;
+}
+.d2 a {
+    color: #27bcc9;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .e{
     grid-row: span 2;
+    background-color: #8f76bc;
 }
+.e1 {
+    background-color: #866eb3;
+    border-radius: 50%;
+    text-align: center;
+    padding: 50px;
+}
+.e1 small {
+    background-color: #8f76bc;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;  
+    margin-bottom: 15px;
+    align-self: center;
+}
+.e1 small i {
+    color: yellow;
+}
+.e1 img {
+    height: 180px;
+    width: 180px;
+    align-self: center;
+    margin: 15px 0;
+}
+.e1 p {
+    color: white;
+}
+.e2 {
+    text-align: center;
+    color: white;
+}
+.e2 a {
+    text-decoration: none;
+    color: black;
+    background-color: #ffc80a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
 .f{
-    
+    text-align: center;
+}
+.f img {
+    height: 130px;
+}
+.f a {
+    color: #27bcc9;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 20px;
 }
 .g{
+    background-color: #93b6b7;
     background-image: url(img/ux.png);
     background-repeat: no-repeat;
     background-position-x: center ;
     background-position-y: bottom;
-    background-size: 60%;
-
+    background-size: 80% 80%;
+    position: relative;
+    color: white;
+}
+.g h2{
+    text-align: center;
+}
+.g small {
+    background-color: #fa684f;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-bottom: 15px; 
+}
+.g div {
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.g img {
+    height: 220px;
+    
 }
 .h{
+    background-color: #38d5f4;   
+    padding: 0 20px;
+}
+.h div {
+    background-color: #15c4e7fd;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: white;
+    margin: auto;
     
+}
+.h div img {
+    height: 60px;
+    width: 60px;
+    align-self: center;
+    margin-bottom: 20px;
 }
 .i{
-    
+    text-align: center;
+}
+.i small {
+    background-color: #7bc424;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    align-self: center;
+    margin-bottom: 15px;
 }
 .l{
-    
+   padding: 0;
+   background-color: #2c2c2c;
+   color: white; 
+}
+
+.l1 div {
+    padding: 0;
+    text-align: right;
+    margin-right: 40px;
+}
+.l1 div img {
+   height: 180px;
 }

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    border: 2px solid ;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
+}
+main div {
+
+    padding: 20px;
+    border: 1px solid;
+}
+
+.a, .b, .d, .g, .l{
+    grid-column: span 2;
+}
+.e {
+    grid-row: span 2;
+}

@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
 main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -23,10 +22,10 @@ i {
     font-size: 10px;
     vertical-align: middle;
 }
+
 .a, .b, .d, .g, .l{
     grid-column: span 2;
 }
-
 .a, .d, .l {
  display: grid;
  grid-template-columns: 1fr 1fr;
@@ -45,6 +44,7 @@ i {
 .a1 h2, .b h5, .d1 h2, .d2 p, .e2 p {
     padding-bottom: 20px;
 }
+
 .a2 {
     margin: auto;
     padding-bottom: 0;
@@ -56,7 +56,6 @@ i {
 .b{
     text-align: center;
     background-color: #f7f8f9;
-
 }
 .b h1 {
     padding-bottom: 15px;
@@ -66,6 +65,7 @@ i {
 .b a {
     color: #27bcc9;
 }
+
 .c{
     background-color:#f05638;
     color: white;
@@ -86,6 +86,7 @@ i {
     text-decoration: none;
     font-size: 13px;
 }
+
 .d {
     padding: 0;
 }
@@ -167,7 +168,8 @@ i {
     font-size: 13px;
     margin-top: 20px;
 }
-.g{
+
+.g {
     background-color: #93b6b7;
     background-image: url(img/ux.png);
     background-repeat: no-repeat;
@@ -196,9 +198,9 @@ i {
     transform: translate(-50%);
 }
 .g img {
-    height: 220px;
-    
+    height: 220px; 
 }
+
 .h{
     background-color: #38d5f4;   
     padding: 0 20px;
@@ -211,7 +213,6 @@ i {
     text-align: center;
     color: white;
     margin: auto;
-    
 }
 .h div img {
     height: 60px;
@@ -219,7 +220,8 @@ i {
     align-self: center;
     margin-bottom: 20px;
 }
-.i{
+
+.i {
     text-align: center;
 }
 .i small {
@@ -232,12 +234,12 @@ i {
     align-self: center;
     margin-bottom: 15px;
 }
+
 .l{
    padding: 0;
    background-color: #2c2c2c;
    color: white; 
 }
-
 .l1 div {
     padding: 0;
     text-align: right;
